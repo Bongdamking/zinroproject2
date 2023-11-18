@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Helper</title>
+        <meta charset="utf-8">
+        <style>
+
+            .sitename{
+                 /* 사이트이름 css */
+                display:inline-block;         /*    자기 공간만큼만 써서 오른쪾에 뭐 붙이게 incline 넣었고,                    */
+                margin-left:125px;            /*      마진으로 위랑 왼쪽에서 떨어지게하고                                     */
+                margin-top: 30px;
+
+                font-size:500%;               /*     크기도 키웠어                                                          */
+            }
+
+            .scadule{
+                /* 학사일정 CSS */
+                text-align:right;
+                font-size: 300%;
+                margin-left: 1100px;
+            }
+            
+            .move{
+                display:inline-block;         /*  위아래 마진 설정하려고 인라인블락 했어.                                     */
+                margin-left:180px;            /*  얘네는 위에 4개애들이야.  기본적인 마진설정, 이걸로 서로 띄웠어                                      */
+                margin-right:180px;
+                margin-top: 30px;   
+                margin-bottom: 30px;
+                
+                color: blue;
+                text-decoration: none;
+
+                font-size: 150%;              /*      크기 키웠어                                                           */
+            }
+
+            .imgcontainer1 {
+                display: flex;
+                justify-content: flex-end;  /*        위에 2개 이미지틀    */
+                height: 100%;
+            }
+
+            .imgbox1 {
+                box-sizing: border-box;    /*        위에 2개 박스      */
+                border: 1px solid #178391;
+                margin-top: 1px;
+                width: 100%;
+                height: 700px;
+            }
+
+            .imgcontainer2 {
+                display: flex;
+                justify-content: flex-end;    /*    밑에 2개 이미지틀    */
+            }
+
+            .imgbox2 {
+                box-sizing: border-box;    /*        밑에 2개 박스     */
+                border: 1px solid #178391;   
+                margin-top: 1px;
+                width: 100%;
+                height: 600px;
+            }
+
+            .miriimg{
+                width: 400px;                 /*        미리보기 그림크기     */
+                height: 200px;
+                border:2px solid #FF4500;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <a href="index.html" style="color:brown"><h1 class="sitename">Helper</h1></a>
+        <a class="scadule" href="scadule.html"><button style="font-size: 50%;" >학사일정</button></a>
+
+        <br>
+        <hr>
+
+        <a class="move" href="pastthings.html">기출문제</a>
+        <a class="move" href="tip.html">공부팁</a>
+        <a class="move" href="questionbook.html">문제집추천</a>
+        <a class="move" href="school.html">진로●진학</a>
+
+        <br>
+        <hr>
+
+        <div class="imgcontainer1">
+            <div class="imgbox1">
+            <a style="text-decoration: none;" href="pastthings.html"><h3 style="margin-top: 1px; text-align: left; font-size: 150%; color: blue">[기출문제]</h3></a>
+             <img class = 'miriimg' src="미리보기 이미지/기출문제 사진(1).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/기출문제 사진(2).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/기출문제 사진(3).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/기출문제 사진(4).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/기출문제 사진(5).png" alt = "이미지 로딩 오류">
+            </div>
+            <div class="imgbox1">
+            <a style="text-decoration: none;" href="tip.html"><h3 style="margin-top: 1px; text-align: left; font-size: 150%; color: blue;">[공부팁]</h3></a>
+             <img class = 'miriimg' src="미리보기 이미지/공부팁 사진(1).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/공부팁 사진(2).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/공부팁 사진(3).png" alt = "이미지 로딩 오류">
+            </div>
+        </div>
+        <div class="imgcontainer2"> 
+            <div class="imgbox2">
+            <a style="text-decoration: none;" href="questionbook.html"><h3 style="margin-top: 1px; text-align: left; font-size: 150%; color: blue;">[문제집추천]</h3></a>
+             <img class = 'miriimg' src="미리보기 이미지/문제집 사진(1).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/문제집 사진(2).png" alt = "이미지 로딩 오류">
+            </div>
+            <div class="imgbox2">
+            <a style="text-decoration: none;" href="school.html"><h3 style="margin-top: 1PX; text-align: left; font-size: 150%; color: blue;">[진로●진학]</h3></a>
+             <img class = 'miriimg' src="미리보기 이미지/진로 진학 사진(1).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/진로 진학 사진(2).png" alt = "이미지 로딩 오류">
+             <img class = 'miriimg' src="미리보기 이미지/진로 진학 사진(3).png" alt = "이미지 로딩 오류">
+            </div>
+        </div>
+    </body>
+
+    </body>
+</html>
